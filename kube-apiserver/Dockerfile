@@ -1,2 +1,2 @@
-FROM  gcr.io/kritis-doc-test/java-with-vulnz@sha256:358687cfd3ec8e1dfeb2bf51b5110e4e16f6df71f64fba01986f720b2fcba68a
+FROM  gcr.io/google-appengine/debian9@sha256:023748401f33e710de6297c7e7dd1617f3c3654819885c5208e9df4d0697848e
 MAINTAINER nbdragon <nbdragon@gmail.com>
