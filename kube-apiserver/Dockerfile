@@ -1,2 +1,2 @@
-FROM  gcr.io/google-appengine/debian9@sha256:023748401f33e710de6297c7e7dd1617f3c3654819885c5208e9df4d0697848e
+FROM  gcr.io/google-appengine/debian10@sha256:d2e40ef81a0f353f1b9c3cf07e384a1f23db3acdaa0eae4c269b653ab45ffadf
 MAINTAINER nbdragon <nbdragon@gmail.com>
