@@ -1,2 +1,2 @@
-FROM quay.io/openshiftlabs/simpleservice:0.5.0
+FROM  gcr.io/kritis-doc-test/java-with-vulnz@sha256:358687cfd3ec8e1dfeb2bf51b5110e4e16f6df71f64fba01986f720b2fcba68a
 MAINTAINER nbdragon <nbdragon@gmail.com>
