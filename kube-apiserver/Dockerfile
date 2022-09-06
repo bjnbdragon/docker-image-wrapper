@@ -1,2 +1,6 @@
-FROM  gcr.io/google-appengine/debian10@sha256:d2e40ef81a0f353f1b9c3cf07e384a1f23db3acdaa0eae4c269b653ab45ffadf
-MAINTAINER nbdragon <nbdragon@gmail.com>
+FROM gcr.io/projectsigstore/cosign:v1.9.0 as cosign-bin
+
+# Source: https://github.com/distroless/static
+FROM ghcr.io/distroless/static:latest
+COPY --from=cosign-bin /ko-app/cosign /usr/local/bin/cosign
+ENTRYPOINT [ "cosign" ]
